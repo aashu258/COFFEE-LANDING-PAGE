@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="icon" href="./assets/logo2.png">
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo"><img src="./assets/logo2.png" style="height:0.9em; width:0.9em; border-radius: 50%;"> Coffee<span>House</span></div>
+
+        <nav>
+            <ul id="nav-links">
+                <li class="border"><a href="#">Home</a></li>
+                <li class="border"><a href="#">Menu</a></li>
+                <li class="border"><a href="#">About</a></li>
+                <li class="border"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-icon" onclick="toggleMenu()"><i id="menuicon" class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Fresh Coffee Everyday</h1>
+            <p style="color: rgb(255, 7, 193);"><b>Experience the taste of premium coffee crafted with love.</b></p>
+            <button>Order Now</button>
+        </div>
+    </section>
+
+    <!-- Coffee Section -->
+    <section class="coffee-section">
+        <h2>Our Special Menu</h2>
+
+        <div class="coffee-container">
+            <div class="coffee-card">
+                <h3>Espresso</h3>
+                <p>Strong and bold flavor coffee.</p>
+            </div>
+
+            <div class="coffee-card">
+                <h3>Cappuccino</h3>
+                <p>Rich creamy and smooth taste.</p>
+            </div>
+
+            <div class="coffee-card">
+                <h3>Latte</h3>
+                <p>Perfect milk blended coffee.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CoffeeHouse | Designed by Aditya Suthar</p>
+    </footer>
+
+<script src="app.js"></script>
+</body>
+</html>
